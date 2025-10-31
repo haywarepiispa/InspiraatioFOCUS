@@ -96,7 +96,13 @@ public class App {
         System.out.println("Your input = " + input + "   - Thank you for your feedback");
        }
 
-      
+       try {
+
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return;
     
     }   // end of main
 }
