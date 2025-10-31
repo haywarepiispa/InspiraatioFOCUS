@@ -96,14 +96,19 @@ public class App {
         System.out.println("Your input = " + input + "   - Thank you for your feedback");
        }
 
+       // pause nr.5
        try {
 
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        // kaiken tämän jälkeen palaa/return
         return;
-    
+        
+
+
+
     }   // end of main
 }
 
